@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="HandheldFriendly" content="true">
+
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <link href="static/css/main.min.css" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script>
+        (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+    </script>
+</head>
+
+<body>
+    <header class="header">
+    </header>
+    <div class="Hero">
+        <div class="container d-flex jc-sp-between">
+            <div class="left-container">
+                <h1 class="Hero__title">Говори о том, что есть
+                </h1>
+                <p class="Hero__text">Если я вас правильно понимаю, вы мне сейчас пытаетесь предложить взятку? Простите, вы что — пытаетесь за
+                    мной ухаживать? Похоже, между нами возникла легкая конфронтация и соотношение двое против троих, причем
+                    как раз третий не тверд в своей позиции?
+                </p>
+                <div class="Hero__progress-bar">
+                    <div class="Progress">
+                        <div class="Progress__my-progress">
+                            <div class="Progress__bar" id="my-bar">
+                                <div class="Progress__label" id="label">10%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="Hero__text">Люди, которые произносят такие слова, резко поворачивают течение разговора в другую сторону, иногда поражая
+                    и известную неловкость.
+                </p>
+                <button class="Hero__open-modal">купить в 1 клик
+                </button>
+            </div>
+            <div class="right-container">
+                <p class="Hero__text">Умение сказать, что происходит на самом деле в этот момент и между этими людьми, сказать неотвратимо и обезоруживающе
+                    — сильный ход.
+                </p>
+                <h3 class="Hero__subtitle">Надо уметь это делать.
+                </h3>
+                <p class="Hero__text">Но этого не достаточно. Надо уметь задавать такие вопросы не только другим, но и самому себе. Но и этого
+                    не достаточно. Надо в любой момент времени пребывать в таком состоянии, что не один вопрос такого рода
+                    не может быть уместен, поскольку не откроет ничего нового. Это и есть прямота. Прямота проникает через
+                    многослойную оболочку другого человека, не нанося ему вреда, а делая его чище, честнее, откровеннее и
+                    великодушнее.
+                </p>
+                <span class="Hero__span">-</span>
+                <a class="Hero__link" href="https://klondike-studio.ru/wiki/front-end/">Frontend-разработка</a>
+                <img class="Hero__image" src="static/img/content/original.jpg" alt="" role="presentation"
+                />
+            </div>
+        </div>
+    </div>
+    <div class="popup d-flex jc-center">
+        <div class="header popup__header">
+            <image class="header__close" src="static/img/content/close.png">
+            </image>
+        </div>
+        <form class="form popup__form">
+            <h2 class="form__title">Обратная связьlf
+            </h2>
+            <p class="form__text">Заполните форму и наш менеджер свяжется с вами в течении 10 минут
+            </p>
+            <div class="form__input-container">
+                <input class="form__input" placeholder="Ваше имя" name="name" type="text" required="required" minlength="3" title="Зполните ваше имя правильно"
+                />
+            </div>
+            <div class="form__input-container">
+                <input class="form__input" placeholder="Телефон" name="phone" id="mask" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
+                title="+79261234567" required="required" />
+            </div>
+            <button class="form__btn-send" type="submit">Отправить
+            </button>
+            <label class="form__label-container">
+                <input class="form__checkbox" type="checkbox" name="checkbox-test" required="required" />
+                <span class="form__checkbox-custom"></span>
+                <span class="form__small-text">Нажимая кнопку вы соглашаетесь с политикой конфиденциальности</span>
+            </label>
+        </form>
+    </div>
+    <div class="overlay">
+    </div>
+    <footer class="footer">
+    </footer>
+    <script src="static/js/vendor.min.js"></script>
+    <script src="static/js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.Progress {
+    &__my-progress {
+        position: relative;
+
+        width: 100%;
+        height: 40px;
+
+        border: 5px solid yellow;
+        border-radius: 10px;
+        background: yellow;
+    }
+
+    &__bar {
+        position: absolute;
+
+        width: 10%;
+        height: 100%;
+
+        background: repeating-linear-gradient(135deg, #4caf50, #4caf50 5px, #006600 5px, black 10px);
+    }
+
+    &__label {
+        position: absolute;
+        top: -8px;
+        right: -10px;
+
+        width: 45px;
+        height: 45px;
+
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 33px;
+        color: #fff;
+        text-align: center;
+
+        border: 6px solid Yellow;
+        border-radius: 50%;
+        background: #4caf50;
+    }
+}

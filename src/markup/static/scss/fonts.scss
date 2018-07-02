@@ -7,3 +7,8 @@
 // Var for using custom font
 $font-1: 'Open Sans', Helvetica, Arial, sans-serif;
 */
+@include font-face('Exo2-bold', '../fonts/Exo2.0-Bold', normal, italic, $exts: woff woff2 ttf eot svg);
+@include font-face('Exo2-regular', '../fonts/Exo2.0-Regular', normal, italic, $exts: woff woff2 ttf eot svg);
+
+$font-exo-bold: 'Exo2-bold', Helvetica, Arial, sans-serif;
+$font-exo-regular: 'Exo2-regular', Helvetica, Arial, sans-serif;

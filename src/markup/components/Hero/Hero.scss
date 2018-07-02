@@ -1,0 +1,57 @@
+.Hero {
+    .left-container, .right-container{
+        width: 45%;
+        padding-top: 25px;
+    }
+
+    &__link {
+        color: blue;
+    }
+
+
+    &__text {
+        text-align: left;
+    }
+
+    &__open-modal {
+        display: block;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        margin: 0 auto;
+
+        font-family: $font-exo-bold;
+
+        color: white;
+        text-transform: uppercase;
+
+        border: 0;
+        border-radius: 5px;
+        background: #4caf50;
+    }
+
+    &__span {
+        margin-right: 15px;
+    }
+
+    &__image {
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 15px;
+
+        cursor: pointer;
+    }
+
+    &__image.big-picture {
+        position: absolute;
+        top: 47%;
+        left: 50%;
+
+        width: 70%;
+
+        transform: translate(-50%,-50%);
+    }
+}
+

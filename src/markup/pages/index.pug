@@ -1,7 +1,11 @@
 extends ../layouts/default
 
+include ../components/Hero/Hero
+include ../components/popup/popup
+
 block vars
-    -pageSettings.title = 'Главная';
+    -pageSettings.title = 'Тестовое задание';
 
 block content
-    // Контент здесь
+        +Hero()
+        +popup()
