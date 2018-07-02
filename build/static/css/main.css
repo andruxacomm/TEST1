@@ -543,7 +543,11 @@ html, body {
   margin-top: 29px;
   margin-bottom: 11px;
   font-family: "Exo2-bold", Helvetica, Arial, sans-serif;
+  font-size: 24px;
   text-align: center;
+  -moz-transform: matrix(1.0778, 0, 0, 1.0778, 0, 0);
+  -webkit-transform: matrix(1.0778, 0, 0, 1.0778, 0, 0);
+  -ms-transform: matrix(1.0778, 0, 0, 1.0778, 0, 0);
 }
 
 .form__text {
@@ -552,13 +556,15 @@ html, body {
   margin: 0 auto;
   margin-bottom: 15px;
   font-family: inherit;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.678);
   text-align: center;
 }
 
 .form__input-container {
   width: 356px;
-  padding-top: 13px;
+  padding-top: 12px;
   padding-bottom: 13px;
   padding-left: 30px;
   margin: 5px auto;
@@ -634,11 +640,12 @@ html, body {
 
 .form__small-text {
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 35px;
   font-family: inherit;
-  font-size: 12px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #374101;
 }
 
 .Hero .left-container, .Hero .right-container {

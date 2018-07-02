@@ -56,7 +56,12 @@
         margin-bottom: 11px;
 
         font-family:$font-exo-bold;
+        font-size: 24px;
         text-align: center;
+
+        -moz-transform: matrix( 1.07780013363813,0,0,1.07780013363815,0,0);
+        -webkit-transform: matrix( 1.07780013363813,0,0,1.07780013363815,0,0);
+        -ms-transform: matrix( 1.07780013363813,0,0,1.07780013363815,0,0);
     }
 
     &__text {
@@ -66,22 +71,26 @@
         margin-bottom: 15px;
 
         font-family:inherit;
-        line-height: 25px;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.678);
         text-align: center;
 
     }
 
+
+
     &__input-container {
         width: 356px;
-        padding-top: 13px;
+        padding-top: 12px;
         padding-bottom: 13px;
         padding-left: 30px;
         margin: 5px auto;
         margin-bottom: 10px;
 
-        font-family:inherit;
+        font-family: inherit;
 
-        background-color: rgb(243, 243, 243);
+        background-color: #f3f3f3;
     }
 
     &__input {
@@ -170,13 +179,15 @@
 
     &__small-text {
         position: absolute;
-        top: 8px;
+        top: 10px;
         left: 35px;
 
         font-family: inherit;
-        font-size: 12px;
-        line-height: 19px;
+        font-size: 14px;
+        line-height: 1.2;
+        color: rgb(55, 65, 1);
     }
 
 
 }
+
