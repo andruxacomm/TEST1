@@ -463,23 +463,23 @@ html, body {
 .Progress__my-progress {
   position: relative;
   width: 100%;
-  height: 40px;
-  border: 5px solid yellow;
+  height: 30px;
+  border: 5px solid #ffcc33;
   border-radius: 10px;
-  background: yellow;
+  background: #ffcc33;
 }
 
 .Progress__bar {
   position: absolute;
   width: 10%;
   height: 100%;
-  background: -webkit-repeating-linear-gradient(315deg, #4caf50, #4caf50 5px, #006600 5px, black 10px);
-  background: repeating-linear-gradient(135deg, #4caf50, #4caf50 5px, #006600 5px, black 10px);
+  background: -webkit-repeating-linear-gradient(315deg, #4caf50, #4caf50 3px, #006600 3px, #006600 6px);
+  background: repeating-linear-gradient(135deg, #4caf50, #4caf50 3px, #006600 3px, #006600 6px);
 }
 
 .Progress__label {
   position: absolute;
-  top: -8px;
+  top: -14px;
   right: -10px;
   width: 45px;
   height: 45px;
@@ -488,7 +488,7 @@ html, body {
   line-height: 33px;
   color: #fff;
   text-align: center;
-  border: 6px solid Yellow;
+  border: 6px solid #ffcc33;
   border-radius: 50%;
   background: #4caf50;
 }
